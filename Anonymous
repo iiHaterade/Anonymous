@@ -1,5 +1,5 @@
 while true do
-task.wait(20)
+task.wait()
 local args = {
     [1] = 1,
     [2] = "{be69d25b-71ce-4ac8-9081-fc60d7e7fafe}"
@@ -61,4 +61,36 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("rudolph101_tower-defence-towers@0.3.5"):WaitForChild("tower-defence-towers"):WaitForChild("Shared"):WaitForChild("TowerEquipping"):WaitForChild("__comm__"):WaitForChild("RF"):WaitForChild("equipToSlot"):InvokeServer(unpack(args))
+task.wait(25)
+local args = {
+    [1] = 1,
+    [2] = "{fd0ad339-57cb-46a2-b2a6-d3c4f2777395}"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("rudolph101_tower-defence-towers@0.3.5"):WaitForChild("tower-defence-towers"):WaitForChild("Shared"):WaitForChild("TowerEquipping"):WaitForChild("__comm__"):WaitForChild("RF"):WaitForChild("equipToSlot"):InvokeServer(unpack(args))
+local args = {
+    [1] = 2,
+    [2] = "{c684e824-4808-4b23-a9ba-54cfab0549d0}"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("rudolph101_tower-defence-towers@0.3.5"):WaitForChild("tower-defence-towers"):WaitForChild("Shared"):WaitForChild("TowerEquipping"):WaitForChild("__comm__"):WaitForChild("RF"):WaitForChild("equipToSlot"):InvokeServer(unpack(args))
+local args = {
+    [1] = 3,
+    [2] = "{0a88409b-e191-4df0-bfa5-848aa8c025ed}"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("rudolph101_tower-defence-towers@0.3.5"):WaitForChild("tower-defence-towers"):WaitForChild("Shared"):WaitForChild("TowerEquipping"):WaitForChild("__comm__"):WaitForChild("RF"):WaitForChild("equipToSlot"):InvokeServer(unpack(args))
+local args = {
+    [1] = 4,
+    [2] = "{8ed45592-f42b-4be5-acd3-889ae2237901}"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("rudolph101_tower-defence-towers@0.3.5"):WaitForChild("tower-defence-towers"):WaitForChild("Shared"):WaitForChild("TowerEquipping"):WaitForChild("__comm__"):WaitForChild("RF"):WaitForChild("equipToSlot"):InvokeServer(unpack(args))
+local args = {
+    [1] = 5,
+    [2] = "{bc618e39-7417-4975-b25b-81bf347af84e}"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("rudolph101_tower-defence-towers@0.3.5"):WaitForChild("tower-defence-towers"):WaitForChild("Shared"):WaitForChild("TowerEquipping"):WaitForChild("__comm__"):WaitForChild("RF"):WaitForChild("equipToSlot"):InvokeServer(unpack(args))
+task.wait(20)
 end
