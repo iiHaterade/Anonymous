@@ -25,7 +25,13 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Towers"):WaitForChild("Upgrade"):FireServer(unpack(args))
-task.wait(50)
+task.wait(45)
+local args = {
+    [1] = workspace:WaitForChild("Towers"):WaitForChild("Freddy")
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Towers"):WaitForChild("Upgrade"):FireServer(unpack(args))
+task.wait(10)
 local args = {
     [1] = workspace:WaitForChild("Towers"):WaitForChild("Freddy")
 }
@@ -99,6 +105,18 @@ game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Tower
 task.wait(13)
 local args = {
     [1] = workspace:WaitForChild("Towers"):WaitForChild("Withered Chica")
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Towers"):WaitForChild("Upgrade"):FireServer(unpack(args))
+task.wait(17)
+local args = {
+    [1] = workspace:WaitForChild("Towers"):WaitForChild("Toy Chica")
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Towers"):WaitForChild("Upgrade"):FireServer(unpack(args))
+task.wait(17)
+local args = {
+    [1] = workspace:WaitForChild("Towers"):WaitForChild("Toy Chica")
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Towers"):WaitForChild("Upgrade"):FireServer(unpack(args))
