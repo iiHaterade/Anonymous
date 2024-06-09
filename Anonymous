@@ -25,7 +25,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Towers"):WaitForChild("Upgrade"):FireServer(unpack(args))
-task.wait(40)
+task.wait(50)
 local args = {
     [1] = workspace:WaitForChild("Towers"):WaitForChild("Freddy")
 }
@@ -51,40 +51,40 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Towers"):WaitForChild("SummonTower"):FireServer(unpack(args))
-task.wait(14)
+task.wait(20)
 local args = {
     [1] = workspace:WaitForChild("Towers"):WaitForChild("Withered Chica")
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Towers"):WaitForChild("Upgrade"):FireServer(unpack(args))
-task.wait(14)
+task.wait(19)
 local args = {
     [1] = "Toy Chica",
     [2] = CFrame.new(-537.36328125, 4.019090175628662, 633.61669921875, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Towers"):WaitForChild("SummonTower"):FireServer(unpack(args))
-task.wait(14)
+task.wait(18)
 local args = {
     [1] = "Toy Chica",
     [2] = CFrame.new(-537.3628540039062, 4.019090175628662, 628.3883666992188, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Towers"):WaitForChild("SummonTower"):FireServer(unpack(args))
-task.wait(14)
+task.wait(17)
 local args = {
     [1] = workspace:WaitForChild("Towers"):WaitForChild("Toy Chica")
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Towers"):WaitForChild("Upgrade"):FireServer(unpack(args))
-task.wait(14)
+task.wait(16)
 local args = {
     [1] = "Withered Chica",
     [2] = CFrame.new(-541.1131591796875, 4.079174518585205, 639.7787475585938, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Towers"):WaitForChild("SummonTower"):FireServer(unpack(args))
-task.wait(14)
+task.wait(15)
 local args = {
     [1] = workspace:WaitForChild("Towers"):WaitForChild("Withered Chica")
 }
@@ -96,7 +96,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Towers"):WaitForChild("Upgrade"):FireServer(unpack(args))
-task.wait(4)
+task.wait(13)
 local args = {
     [1] = workspace:WaitForChild("Towers"):WaitForChild("Withered Chica")
 }
