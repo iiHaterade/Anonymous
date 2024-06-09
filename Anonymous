@@ -12,28 +12,28 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Towers"):WaitForChild("SummonTower"):FireServer(unpack(args))
-task.wait(11)
+task.wait(12)
 local args = {
     [1] = "Freddy",
     [2] = CFrame.new(-537.724853515625, 4.225870609283447, 643.6021118164062, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Towers"):WaitForChild("SummonTower"):FireServer(unpack(args))
-task.wait(8)
+task.wait(13)
 local args = {
     [1] = "Freddy",
     [2] = CFrame.new(-523, 4, 645)
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Towers"):WaitForChild("SummonTower"):FireServer(unpack(args))
-task.wait(10)
+task.wait(14)
 local args = {
     [1] = "Freddy",
     [2] = CFrame.new(-522, 4, 631)
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Towers"):WaitForChild("SummonTower"):FireServer(unpack(args))
-task.wait(10)
+task.wait(15)
 local args = {
     [1] = "Freddy",
     [2] = CFrame.new(-523, 4, 619)
@@ -46,7 +46,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Towers"):WaitForChild("Upgrade"):FireServer(unpack(args))
-task.wait(12)
+task.wait(10)
 local args = {
     [1] = workspace:WaitForChild("Towers"):WaitForChild("Freddy")
 }
