@@ -26,14 +26,14 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Towers"):WaitForChild("SummonTower"):FireServer(unpack(args))
-task.wait(21)
+task.wait(26)
 local args = {
     [1] = "Withered Foxy",
     [2] = CFrame.new(-535.24658203125, 4.548299789428711, 890.419921875, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Towers"):WaitForChild("SummonTower"):FireServer(unpack(args))
-task.wait(20)
+task.wait(18)
 local args = {
     [1] = "Withered Foxy",
     [2] = CFrame.new(-515.4686279296875, 4.548299789428711, 894.5425415039062, 1, 0, 0, 0, 1, 0, 0, 0, 1)
@@ -54,7 +54,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Towers"):WaitForChild("SummonTower"):FireServer(unpack(args))
-task.wait(16)
+task.wait(18)
 local args = {
     [1] = "Toy Chica",
     [2] = CFrame.new(-520.047607421875, 4.008590221405029, 904.1609497070312, 1, 0, 0, 0, 1, 0, 0, 0, 1)
