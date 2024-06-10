@@ -5,14 +5,14 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Main"):WaitForChild("Vote"):FireServer(unpack(args))
-task.wait(5)
+task.wait(12)
 local args = {
     [1] = "Freddy",
     [2] = CFrame.new(-522.569580078125, 4.2153706550598145, 894.2506103515625, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Towers"):WaitForChild("SummonTower"):FireServer(unpack(args))
-task.wait(1)
+task.wait(2)
 local args = {
     [1] = "Freddy",
     [2] = CFrame.new(-531.6817626953125, 4.2153706550598145, 893.9735717773438, 1, 0, 0, 0, 1, 0, 0, 0, 1)
