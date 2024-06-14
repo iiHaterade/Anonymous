@@ -134,7 +134,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Tower
 task.wait()
 local plr = game.Players.LocalPlayer
 plr.PlayerGui.Completed.PlayAgain.Visible = true
-task.wait(100)
+task.wait(34)
 for i=1, 10 do
 local virtual_input_manager = game:GetService("VirtualInputManager")
 local x, y = 700, 750 --// Coordinates.
