@@ -42,3 +42,21 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Towers"):WaitForChild("SummonTower"):FireServer(unpack(args))
+task.wait(.2)
+for i=1, 8 do
+task.wait()
+local args = {
+    [1] = workspace:WaitForChild("Towers"):WaitForChild("Shadow Freddy")
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Towers"):WaitForChild("Upgrade"):FireServer(unpack(args))
+end
+task.wait(.2)
+for i=1, 8 do
+task.wait()
+local args = {
+    [1] = workspace:WaitForChild("Towers"):WaitForChild("Bonnie")
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Towers"):WaitForChild("Upgrade"):FireServer(unpack(args))
+end
