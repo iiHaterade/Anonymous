@@ -9,7 +9,7 @@ local A_2 = CFrame.new(-457.342987, 4.66383648, 3030.73291, 1, 0, 0, 0, 1, 0, 0,
 local Event = game:GetService("ReplicatedStorage").Remotes.Towers.SummonTower
 Event:FireServer(WF, A_2)
 task.wait(1)
-for i=1, 100000 do
+for i=1, 10000 do
 local A_1 = game:GetService("Workspace").Towers["Withered Foxy"]
 local Event = game:GetService("ReplicatedStorage").Remotes.Towers.Sell
 Event:FireServer(A_1)
