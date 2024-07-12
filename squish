@@ -1,5 +1,6 @@
 while true do
 task.wait(2)
+game:GetService('VirtualInputManager'):SendKeyEvent(true,'Q',false,uwu)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(248, 12, 208)
 local args = {
 [1] = "DigAtPosition",
@@ -15,7 +16,7 @@ local args = {
 [2] = "Cave",
 [3] = 7
 }
-task.wait(8)
+task.wait(7)
 game:GetService("Players").LocalPlayer:WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
 task.wait()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(377, 12, 196)
