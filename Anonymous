@@ -1,63 +1,45 @@
 while true do
-task.wait()
-local args = {
-	[1] = "EquipItem",
-	[2] = "oCNV-bPRw-d3e4-XmLQ" --Detector
-}
-
-game:GetService("Players").LocalPlayer:WaitForChild("RemoteEvent"):FireServer(unpack(args))
 task.wait(2)
 local args = {
-	[1] = "EquipItem",
-	[2] = "VhB8-m6Hg-H8SA-Xc0n" --Shovel
+[1] = "DigAtPosition",
+[2] = "Cave",
+[3] = 4
 }
-
-game:GetService("Players").LocalPlayer:WaitForChild("RemoteEvent"):FireServer(unpack(args))
-local args = {
-	[1] = "DigAtPosition",
-	[2] = "Cave",
-	[3] = 4
-}
-task.wait()
+task.wait(8)
 game:GetService("Players").LocalPlayer:WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
 local args = {
-	[1] = "EquipItem",
-	[2] = "oCNV-bPRw-d3e4-XmLQ" --Detector
+[1] = "DigAtPosition",
+[2] = "Cave",
+[3] = 7
 }
-
-game:GetService("Players").LocalPlayer:WaitForChild("RemoteEvent"):FireServer(unpack(args))
-task.wait(2.5)
-local args = {
-	[1] = "EquipItem",
-	[2] = "VhB8-m6Hg-H8SA-Xc0n" --Shovel
-}
-
-game:GetService("Players").LocalPlayer:WaitForChild("RemoteEvent"):FireServer(unpack(args))
-local args = {
-	[1] = "DigAtPosition",
-	[2] = "Cave",
-	[3] = 7
-}
-task.wait()
+task.wait(6)
 game:GetService("Players").LocalPlayer:WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
 local args = {
-	[1] = "EquipItem",
-	[2] = "oCNV-bPRw-d3e4-XmLQ" --Detector
+[1] = "DigAtPosition",
+[2] = "Cave",
+[3] = 10
 }
-
-game:GetService("Players").LocalPlayer:WaitForChild("RemoteEvent"):FireServer(unpack(args))
+task.wait(5)
+game:GetService("Players").LocalPlayer:WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
+local args = {
+[1] = "DigAtPosition",
+[2] = "Cave",
+[3] = 4
+}
+task.wait(4)
+game:GetService("Players").LocalPlayer:WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
+local args = {
+[1] = "DigAtPosition",
+[2] = "Cave",
+[3] = 9
+}
+task.wait(4)
+game:GetService("Players").LocalPlayer:WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
+local args = {
+[1] = "DigAtPosition",
+[2] = "Cave",
+[3] = 10
+}
 task.wait(3)
-local args = {
-	[1] = "EquipItem",
-	[2] = "VhB8-m6Hg-H8SA-Xc0n" --Shovel
-}
-
-game:GetService("Players").LocalPlayer:WaitForChild("RemoteEvent"):FireServer(unpack(args))
-local args = {
-	[1] = "DigAtPosition",
-	[2] = "Cave",
-	[3] = 9
-}
-task.wait()
 game:GetService("Players").LocalPlayer:WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
 end
