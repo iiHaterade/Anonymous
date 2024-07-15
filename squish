@@ -7,7 +7,7 @@ local args = {
 [2] = "Cave",
 [3] = 4
 }
-task.wait(6.505)
+task.wait(6.625)
 game:GetService("Players").LocalPlayer:WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
 task.wait()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(353, 12, 221)
@@ -16,7 +16,7 @@ local args = {
 [2] = "Cave",
 [3] = 7
 }
-task.wait(6.505)
+task.wait(6.625)
 game:GetService("Players").LocalPlayer:WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
 task.wait()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(377, 12, 196)
@@ -25,7 +25,7 @@ local args = {
 [2] = "Cave",
 [3] = 10
 }
-task.wait(6.505)
+task.wait(6.625)
 game:GetService("Players").LocalPlayer:WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
 task.wait()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(428, 12, 209)
@@ -34,7 +34,7 @@ local args = {
 [2] = "Cave",
 [3] = 9
 }
-task.wait(6.504)
+task.wait(6.624)
 game:GetService("Players").LocalPlayer:WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
-print("Best Speed Ever")
+print("The Speed")
 end
