@@ -7,7 +7,7 @@ local args = {
 [2] = "Beach",
 [3] = 10
 }
-task.wait(5.1)
+task.wait(6)
 game:GetService("Players").LocalPlayer:WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
 task.wait()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-473, 14, -134)
@@ -16,7 +16,7 @@ local args = {
 [2] = "Beach",
 [3] = 9
 }
-task.wait(5.1)
+task.wait(6)
 game:GetService("Players").LocalPlayer:WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
 task.wait()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-294, 14, 79)
@@ -25,7 +25,7 @@ local args = {
 [2] = "Beach",
 [3] = 7
 }
-task.wait(5.1)
+task.wait(6)
 game:GetService("Players").LocalPlayer:WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
 task.wait()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-307, 15, -50)
@@ -34,7 +34,7 @@ local args = {
 [2] = "Cave",
 [3] = 4
 }
-task.wait(5.1)
+task.wait(6)
 game:GetService("Players").LocalPlayer:WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
 task.wait()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-352, 15, -104)
@@ -43,7 +43,7 @@ local args = {
 [2] = "Beach",
 [3] = 5
 }
-task.wait(5.1)
+task.wait(6)
 game:GetService("Players").LocalPlayer:WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
 print("Yes Speed")
 end
