@@ -1,40 +1,49 @@
 while true do
 task.wait()
 game:GetService('VirtualInputManager'):SendKeyEvent(true,'Q',false,uwu)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(248, 12, 208)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-404, 14, -66)
+local args = {
+[1] = "DigAtPosition",
+[2] = "Beach",
+[3] = 10
+}
+task.wait(5.1)
+game:GetService("Players").LocalPlayer:WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
+task.wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-473, 14, -134)
+local args = {
+[1] = "DigAtPosition",
+[2] = "Beach",
+[3] = 9
+}
+task.wait(5.1)
+game:GetService("Players").LocalPlayer:WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
+task.wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-294, 14, 79)
+local args = {
+[1] = "DigAtPosition",
+[2] = "Beach",
+[3] = 7
+}
+task.wait(5.1)
+game:GetService("Players").LocalPlayer:WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
+task.wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-307, 15, -50)
 local args = {
 [1] = "DigAtPosition",
 [2] = "Cave",
 [3] = 4
 }
-task.wait(6.623)
+task.wait(5.1)
 game:GetService("Players").LocalPlayer:WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
 task.wait()
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(353, 12, 221)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-352, 15, -104)
 local args = {
 [1] = "DigAtPosition",
-[2] = "Cave",
-[3] = 7
+[2] = "Beach",
+[3] = 5
 }
-task.wait(6.623)
-game:GetService("Players").LocalPlayer:WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
-task.wait()
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(377, 12, 196)
-local args = {
-[1] = "DigAtPosition",
-[2] = "Cave",
-[3] = 10
-}
-task.wait(6.623)
-game:GetService("Players").LocalPlayer:WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
-task.wait()
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(428, 12, 209)
-local args = {
-[1] = "DigAtPosition",
-[2] = "Cave",
-[3] = 9
-}
-task.wait(6.623)
+task.wait(5.1)
 game:GetService("Players").LocalPlayer:WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
 print("Yes Speed")
 end
